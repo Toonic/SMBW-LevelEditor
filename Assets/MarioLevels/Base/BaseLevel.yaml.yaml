@@ -1,0 +1,3937 @@
+Version: 1
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - AreaHash: !u 2992145499
+      Dynamic:
+        LRWidePat: !l 0
+        PreferredDir: !l 0
+        ScrollUpDownType: !l 1
+        ScrollUpDownTypeHighJump: !l 0
+        ScrollUpDownTypeVineMove: !l 0
+        ScrollUpDownTypeWoenderInWater: !l 0
+        ScrollUpDownTypeWonder: !l 0
+        scrollVboundaryDOWN: -1.50000
+        scrollVboundaryDOWNVineMove: -1.50000
+        scrollVboundaryDOWNWaterWonder: -1.50000
+        scrollVboundaryDOWNhighJump: -1.50000
+        scrollVboundaryDOWNwonder: -1.50000
+        scrollVboundaryUP: 4.00000
+        scrollVboundaryUPVineMove: 4.00000
+        scrollVboundaryUPWaterWonder: 4.00000
+        scrollVboundaryUPhighJump: 4.00000
+        scrollVboundaryUPwonder: 4.00000
+        validSeamlessNextGoto: false
+      Gyaml: CameraArea
+      Hash: !ul 325070885
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj160
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 354.38440
+        - 15.50000
+        - 1.00000
+      Translate:
+        - 154.40000
+        - -1.50000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic:
+        InitDir: !l 4
+        IsForceStartPoint: false
+        LocatorName: 
+        PlacementPattern: !l 0
+        ScatteredPlayerNo: !l -1
+        StartAction: !l 0
+      Gyaml: PlayerLocator
+      Hash: !ul 561690704
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj0
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 3.50000
+        - 1.50000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {ExportedScaleX: 1.00000, ExportedScaleY: 10.00000, ExportedScaleZ: 1.00000, GoalID: !l 0}
+      Gyaml: ObjectGoalPole
+      Hash: !ul 14583255045390669027
+      InLinks: {Reference: !l 1}
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj0
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 248.50010
+        - 1.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Gyaml: ObjectGoalPoleFort
+      Hash: !ul 13092817996462068995
+      InLinks: {Reference: !l 1}
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj2
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 263.00010
+        - 1.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Gyaml: AirWallRight
+      Hash: !ul 13048263359803875770
+      InLinks: {Delete: !l 1}
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj3
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 50.00000
+        - 1.00000
+      Translate:
+        - 249.50010
+        - 1.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {DefaultEmotionType: !l 0, InitDir: !l 1, InitialVisible: true}
+      Gyaml: ObjectGoalDemoNpc
+      Hash: !ul 17737672837873232699
+      InLinks: {Reference: !l 1}
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj4
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 262.50010
+        - 1.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {IsHandInLeave: false, IsNoneGetTimeWait: false, NoneGetTimeWait: !l 600, SaveId: !l 0}
+      Gyaml: EventItemWonderFlowerGoalDemo
+      Hash: !ul 10101701342416998777
+      InLinks: {Reference: !l 2}
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj5
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 259.00010
+        - 1.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {StartCondition: !l 0, limitDir: !l 0}
+      Gyaml: bindScrollLimitTag
+      Hash: !ul 1579381978
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj6
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 270.00010
+        - 1.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {DefaultEmotionType: !l 0, InitDir: !l 1, InitialVisible: true}
+      Gyaml: ObjectGoalDemoNPCPrince
+      Hash: !ul 2283509288538257040
+      InLinks: {Reference: !l 1}
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj7
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 256.50010
+        - 1.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Gyaml: PlayerRevivalProhibitsArea
+      Hash: !ul 200573711
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj8
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 21.50000
+        - 50.00000
+        - 1.00000
+      Translate:
+        - 259.25010
+        - 1.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {DVLayerParamName: '', TimeScrollRateX: -0.02500, TimeScrollRateY: 0.00000}
+      Gyaml: DVBasePosLocator
+      Hash: !ul 428301176
+      Layer: DvMiddle1
+      Name: Course001_Main[Design].muunt/obj1
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 13.77778
+        - -1.50000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {EffectKeyName: DVButterflybaseMain01}
+      Gyaml: CallEffectTag
+      Hash: !ul 1833642190
+      Layer: PlayArea2
+      Name: Course001_Main[Design].muunt/obj29
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 12.00000
+        - 5.50000
+        - -2.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {EffectKeyName: DVButterflybaseMain02}
+      Gyaml: CallEffectTag
+      Hash: !ul 680199193
+      Layer: PlayArea2
+      Name: Course001_Main[Design].muunt/obj31
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 33.50000
+        - 9.50000
+        - -2.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {EffectKeyName: DVButterflybaseMain02}
+      Gyaml: CallEffectTag
+      Hash: !ul 122160878
+      Layer: PlayArea2
+      Name: Course001_Main[Design].muunt/obj33
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 46.50000
+        - 14.50000
+        - -2.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {EffectKeyName: DVButterflybaseMain01}
+      Gyaml: CallEffectTag
+      Hash: !ul 607633892
+      Layer: PlayArea2
+      Name: Course001_Main[Design].muunt/obj34
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 57.00000
+        - 4.50000
+        - -2.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {EffectKeyName: DVButterflybaseMain01}
+      Gyaml: CallEffectTag
+      Hash: !ul 269390068
+      Layer: PlayArea2
+      Name: Course001_Main[Design].muunt/obj37
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 107.00000
+        - 12.50000
+        - -2.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {EffectKeyName: DVButterflybaseMain03}
+      Gyaml: CallEffectTag
+      Hash: !ul 1624634656
+      Layer: PlayArea2
+      Name: Course001_Main[Design].muunt/obj40
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 135.00000
+        - 14.00000
+        - -2.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {EffectKeyName: DVButterflybaseMain02}
+      Gyaml: CallEffectTag
+      Hash: !ul 669905058
+      Layer: PlayArea2
+      Name: Course001_Main[Design].muunt/obj41
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 178.50000
+        - 5.00000
+        - -2.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {EffectKeyName: DVButterflybaseMain02}
+      Gyaml: CallEffectTag
+      Hash: !ul 1028599132
+      Layer: PlayArea2
+      Name: Course001_Main[Design].muunt/obj43
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 195.00000
+        - 8.50000
+        - -2.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {EffectKeyName: DVButterflybaseMain02}
+      Gyaml: CallEffectTag
+      Hash: !ul 1503822649
+      Layer: PlayArea2
+      Name: Course001_Main[Design].muunt/obj50
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 152.00000
+        - 7.50000
+        - -2.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenMiddleKarikomiA
+      Hash: !ul 370217430
+      Layer: DvMiddle1
+      Name: Course001_Main[Design].muunt/obj90
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 4.75781
+        - 3.00000
+        - -50.00000
+    - AreaHash: !u 2992145499
+      Gyaml: EDVKuriboSleep
+      Hash: !ul 1580309334
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj95
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 26.13856
+        - 4.54209
+        - -254.61930
+    - AreaHash: !u 2992145499
+      Gyaml: EDVKuriboSleep
+      Hash: !ul 449857593
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj97
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 22.30368
+        - 4.51021
+        - -254.35350
+    - AreaHash: !u 2992145499
+      Gyaml: EDVKuriboSleep
+      Hash: !ul 1470552929
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj98
+      Rotate:
+        - 0.02631
+        - 0.11709
+        - 0.22154
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 22.60318
+        - 4.49737
+        - -254.65190
+    - AreaHash: !u 2992145499
+      Gyaml: DVCommonEnkeiSavannaFarYamaMeA
+      Hash: !ul 1235742692
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj101
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 25.57031
+        - 12.87500
+        - -305.86720
+    - AreaHash: !u 2992145499
+      Gyaml: RichDVHajimariSougenFarWonderDokanA00
+      Hash: !ul 463353515
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj103
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.70000
+        - 0.70000
+        - 0.70000
+      Translate:
+        - 101.28910
+        - 3.35938
+        - -219.50000
+    - AreaHash: !u 2992145499
+      Gyaml: RichDVHajimariSougenFarWonderDokanA01
+      Hash: !ul 51860511
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj104
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.70000
+        - 0.70000
+        - 0.70000
+      Translate:
+        - 121.00000
+        - 3.00000
+        - -219.50000
+    - AreaHash: !u 2992145499
+      Gyaml: RichDVHajimariSougenFarWonderDokanA00
+      Hash: !ul 1644952271
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj105
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.70000
+        - 0.70000
+        - 0.70000
+      Translate:
+        - 76.59342
+        - 3.18209
+        - -219.50000
+    - AreaHash: !u 2992145499
+      Gyaml: RichDVHajimariSougenFarWonderDokanA01
+      Hash: !ul 338022805
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj106
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.45000
+        - 0.45000
+        - 0.45000
+      Translate:
+        - 50.96107
+        - 3.75957
+        - -255.01020
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundC
+      Hash: !ul 2128905938
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj108
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.10000
+        - 1.10000
+        - 1.10000
+      Translate:
+        - 90.50000
+        - -5.00000
+        - -57.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundD
+      Hash: !ul 1206555327
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj109
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.10000
+        - 1.10000
+        - 1.10000
+      Translate:
+        - 97.50000
+        - -5.00000
+        - -78.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 2047530255
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj111
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.65000
+        - 0.65000
+        - 0.65000
+      Translate:
+        - 105.50000
+        - 3.50000
+        - -43.00000
+    - AreaHash: !u 2992145499
+      Gyaml: RichDVHajimariSougenFarWonderDokanA00
+      Hash: !ul 1075391126
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj114
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 25.05306
+        - 4.59224
+        - -259.00680
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenMiddleSpotLight
+      Hash: !ul 445769297
+      Layer: DvMiddle1
+      Name: Course001_Main[Design].muunt/obj197
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 260.00000
+        - 17.50000
+        - -45.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenMiddleSpotLight
+      Hash: !ul 159244486
+      Layer: DvMiddle1
+      Name: Course001_Main[Design].muunt/obj198
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 244.00000
+        - 17.50000
+        - -45.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVCommonEnkeiKinokoFarOukokuA
+      Hash: !ul 628354651
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj1
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 4.29679
+        - 4.86500
+        - -340.71090
+    - AreaHash: !u 2992145499
+      Gyaml: DVCommonEnkeiSavannaFarYamaB
+      Hash: !ul 750206459
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj5
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 21.00000
+        - 5.00000
+        - -325.68750
+    - AreaHash: !u 2992145499
+      Gyaml: DVCommonEnkeiSavannaFarYamaC
+      Hash: !ul 964814160
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj6
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 24.00000
+        - 5.00000
+        - -306.05470
+    - AreaHash: !u 2992145499
+      Gyaml: DVCommonEnkeiSavannaFarYamaD
+      Hash: !ul 1604082020
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj7
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 25.50000
+        - 6.00000
+        - -297.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVCommonEnkeiSavannaFarHikariA
+      Hash: !ul 1697080828
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj8
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 26.00000
+        - 6.00000
+        - -302.92970
+    - AreaHash: !u 2992145499
+      Gyaml: DVCommonEnkeiSavannaFarHikariB
+      Hash: !ul 1886049364
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj9
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 26.00000
+        - 6.00000
+        - -312.53130
+    - AreaHash: !u 2992145499
+      Gyaml: DVCommonEnkeiSavannaFarYamaA
+      Hash: !ul 1190593644
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj10
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.15000
+        - 1.15000
+        - 1.15000
+      Translate:
+        - 34.00000
+        - 4.50000
+        - -301.42970
+    - AreaHash: !u 2992145499
+      Gyaml: DVCommonEnkeiSavannaFarYamaB
+      Hash: !ul 2065511081
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj11
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.70000
+        - 0.70000
+        - 0.70000
+      Translate:
+        - 30.00000
+        - 6.00000
+        - -347.70310
+    - AreaHash: !u 2992145499
+      Gyaml: CloudCommonHosoNagaAA
+      Hash: !ul 634093703
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj12
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.70000
+        - 0.70000
+        - 0.70000
+      Translate:
+        - 28.50000
+        - 6.00000
+        - -346.70310
+    - AreaHash: !u 2992145499
+      Gyaml: CloudCommonHosoNagaAA
+      Hash: !ul 61151274
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj13
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 28.00000
+        - 4.00000
+        - -295.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVCommonEnkeiKinokoFarOukokuB
+      Hash: !ul 2098174048
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj14
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.53000
+        - 0.53000
+        - 0.53000
+      Translate:
+        - 4.14054
+        - 4.80250
+        - -341.28130
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundA
+      Hash: !ul 1863673108
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj0
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 8.00000
+        - -3.13281
+        - -117.69530
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundB
+      Hash: !ul 371400669
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj1
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 48.50000
+        - 1.27344
+        - -204.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundA
+      Hash: !ul 1030500731
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj2
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 98.00000
+        - -3.13281
+        - -117.69530
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundA
+      Hash: !ul 1017209390
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj3
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 188.00000
+        - -3.13281
+        - -117.69530
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundB
+      Hash: !ul 2027466077
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj4
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - -5.50000
+        - 1.27344
+        - -204.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundB
+      Hash: !ul 1980467308
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj5
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 102.50000
+        - 1.27344
+        - -204.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundB
+      Hash: !ul 716212287
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj6
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 156.50000
+        - 1.27344
+        - -204.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundB
+      Hash: !ul 490155861
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj7
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 210.50000
+        - 1.27344
+        - -204.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundA
+      Hash: !ul 540597229
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj8
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 278.00000
+        - -3.13281
+        - -117.69530
+    - AreaHash: !u 2992145499
+      Gyaml: CloudHajimariSougenA
+      Hash: !ul 173698922
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj10
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 13.50000
+        - 1.36719
+        - -358.75000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundC
+      Hash: !ul 604372844
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj11
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 48.50000
+        - -6.81250
+        - -159.94530
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundD
+      Hash: !ul 15479104
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj12
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 55.50000
+        - -6.81250
+        - -184.44530
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1718437197
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj16
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 8.00000
+        - -0.13281
+        - -94.25000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1058363331
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj17
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.02000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 7.00000
+        - 2.72656
+        - -141.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 887103954
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj18
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 37.50000
+        - -0.13281
+        - -94.25000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1432654771
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj19
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - -21.50000
+        - -0.13281
+        - -94.25000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1504691019
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj20
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.92000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 28.81498
+        - 1.75232
+        - -141.30790
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1276194020
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj21
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 67.50000
+        - -0.13281
+        - -94.25000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 2034924049
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj22
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 97.00000
+        - -0.13281
+        - -94.25000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 146966400
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj23
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 126.50000
+        - -0.13281
+        - -94.25000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 802207836
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj24
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 156.00000
+        - 0.36719
+        - -94.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1793320832
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj25
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 185.50000
+        - -0.13281
+        - -94.25000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1079218883
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj26
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 215.00000
+        - -0.13281
+        - -94.25000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1555166158
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj27
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 244.50000
+        - -0.13281
+        - -94.25000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1988727402
+      Layer: DvFar1
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj28
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 274.00000
+        - -0.13281
+        - -94.25000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 61096912
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj33
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.90000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 119.00000
+        - 1.11719
+        - -141.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1597840639
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj34
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.06000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 93.63054
+        - 2.21907
+        - -141.50070
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 205630279
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj35
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.90000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 208.50000
+        - 1.36719
+        - -141.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 920740471
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj36
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.06000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 184.50000
+        - 1.61719
+        - -141.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 393874876
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj38
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.06000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 275.00000
+        - 1.61719
+        - -141.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 538386766
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj41
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - -2.60156
+        - 0.86719
+        - -97.10938
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 554544536
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj42
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 74.50000
+        - 2.36719
+        - -110.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 474124552
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj43
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.98000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 25.50000
+        - 0.86719
+        - -98.10938
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1527924971
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj44
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 2.51563
+        - 1.88281
+        - -100.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1117134740
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj45
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.08000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - -2.00000
+        - 1.61719
+        - -141.30470
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 247143219
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj46
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00160
+      Scale:
+        - 0.20000
+        - 0.20000
+        - 0.20000
+      Translate:
+        - 17.68841
+        - 3.12546
+        - -218.99550
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 117010757
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj47
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.20000
+        - 0.20000
+        - 0.20000
+      Translate:
+        - 27.50000
+        - 3.16406
+        - -219.00000
+    - AreaHash: !u 2992145499
+      Gyaml: CloudCommonHosoNagaAA
+      Hash: !ul 1340421239
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj48
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 9.50000
+        - 4.86719
+        - -351.25000
+    - AreaHash: !u 2992145499
+      Gyaml: CloudCommonHosoNagaAB
+      Hash: !ul 1031665826
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj49
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 17.00000
+        - 7.50000
+        - -296.45310
+    - AreaHash: !u 2992145499
+      Gyaml: CloudCommonHosoNagaAC
+      Hash: !ul 1808342719
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj50
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.28000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 23.50000
+        - 9.86719
+        - -293.95310
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaB
+      Hash: !ul 653728240
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj51
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 16.98187
+        - 1.57000
+        - -98.40781
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarUmiA
+      Hash: !ul 1079498713
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj52
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 8.95313
+        - 4.86719
+        - -345.39840
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundA
+      Hash: !ul 306024347
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj53
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.40000
+        - 0.40000
+        - 0.40000
+      Translate:
+        - -14.00000
+        - 2.36719
+        - -246.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundA
+      Hash: !ul 832722837
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj54
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.40000
+        - 0.40000
+        - 0.40000
+      Translate:
+        - 22.00000
+        - 2.36719
+        - -246.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundA
+      Hash: !ul 797179942
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj55
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.40000
+        - 0.40000
+        - 0.40000
+      Translate:
+        - 58.00000
+        - 2.36719
+        - -246.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundA
+      Hash: !ul 1368650514
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj56
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.40000
+        - 0.40000
+        - 0.40000
+      Translate:
+        - 94.00000
+        - 2.36719
+        - -246.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundA
+      Hash: !ul 799862782
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj57
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.40000
+        - 0.40000
+        - 0.40000
+      Translate:
+        - 130.00000
+        - 2.36719
+        - -246.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundA
+      Hash: !ul 210836325
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj58
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.40000
+        - 0.40000
+        - 0.40000
+      Translate:
+        - 166.00000
+        - 2.36719
+        - -246.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundA
+      Hash: !ul 52150249
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj59
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.40000
+        - 0.40000
+        - 0.40000
+      Translate:
+        - 202.00000
+        - 2.36719
+        - -246.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1298061289
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj61
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.08000
+        - 0.08000
+        - 0.08000
+      Translate:
+        - 28.22656
+        - 3.35938
+        - -279.21090
+    - AreaHash: !u 2992145499
+      Gyaml: CloudCommonHosoNagaAA
+      Hash: !ul 88412863
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj62
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 15.00000
+        - 4.86719
+        - -351.75000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 17521527
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj63
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.03491
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 129.00000
+        - 1.50000
+        - -98.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1605449782
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj64
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 106.50000
+        - 1.36719
+        - -101.57810
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1684749768
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj65
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.98000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 177.00000
+        - 0.86719
+        - -98.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1234570000
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj66
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 155.00000
+        - 1.86719
+        - -100.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 303903158
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj67
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.98000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 226.00000
+        - 1.50000
+        - -98.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1153157965
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj68
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 203.50000
+        - 1.36719
+        - -96.02344
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 2030250859
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj69
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 276.08790
+        - 1.25320
+        - -97.99641
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 3437010
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj70
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 252.50000
+        - 1.36719
+        - -100.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarUmiHikariA
+      Hash: !ul 2069848293
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj71
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 0.70000
+        - 1.00000
+      Translate:
+        - 21.00000
+        - 4.86719
+        - -342.00780
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarUmiHikariA
+      Hash: !ul 1638141266
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj72
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 0.50000
+        - 1.00000
+      Translate:
+        - 16.00000
+        - 4.86719
+        - -342.50780
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarUmiHikariA
+      Hash: !ul 18623086
+      Layer: DvFar9
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj73
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 0.30000
+        - 1.00000
+      Translate:
+        - 14.00000
+        - 4.86719
+        - -343.00780
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundDFar
+      Hash: !ul 570782080
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj74
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.60000
+        - 0.60000
+        - 0.60000
+      Translate:
+        - 93.85440
+        - -1.60445
+        - -229.50770
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundCFar
+      Hash: !ul 576538023
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj75
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.40000
+        - 0.40000
+        - 0.40000
+      Translate:
+        - 41.75000
+        - -0.26569
+        - -263.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundCFar
+      Hash: !ul 1666322995
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj76
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.40000
+        - 0.40000
+        - 0.40000
+      Translate:
+        - 43.00000
+        - 1.57031
+        - -281.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundCFar
+      Hash: !ul 66915183
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj77
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 25.23438
+        - 2.29688
+        - -283.83590
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundCFar
+      Hash: !ul 184161517
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj79
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 33.00000
+        - 2.00781
+        - -274.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1120012410
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj138
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - -11.00000
+        - 3.75781
+        - -110.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 837962141
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj139
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.98000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 54.50000
+        - 2.17969
+        - -98.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1514117805
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj140
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 58.50000
+        - 1.36719
+        - -112.01560
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 12099709
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj141
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 87.50000
+        - 1.00000
+        - -116.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1382808008
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj142
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 142.50000
+        - 2.50000
+        - -113.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1912003727
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj143
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 181.00000
+        - 2.36719
+        - -102.53130
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1463483096
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj144
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 206.50000
+        - 2.36719
+        - -99.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 306447116
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj145
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 232.00000
+        - 2.50000
+        - -100.21090
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 535563573
+      Layer: DvFar6
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj149
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.94000
+      Scale:
+        - 0.20000
+        - 0.20000
+        - 0.20000
+      Translate:
+        - 44.28906
+        - 2.93750
+        - -220.87500
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1480173797
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj150
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.20000
+        - 0.20000
+        - 0.20000
+      Translate:
+        - 89.50000
+        - 3.36719
+        - -219.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1481995522
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj151
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.08000
+        - 0.10000
+        - 0.10000
+      Translate:
+        - 12.27942
+        - 3.83584
+        - -256.98890
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundDFar
+      Hash: !ul 1790665043
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj153
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.30000
+        - 0.26000
+        - 0.30000
+      Translate:
+        - 15.98438
+        - 1.64844
+        - -280.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundCFar
+      Hash: !ul 365001892
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj154
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.32000
+        - 0.29500
+        - 0.32000
+      Translate:
+        - 18.84743
+        - 2.68095
+        - -287.12760
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 2789503
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj155
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.08000
+        - 0.10000
+        - 0.10000
+      Translate:
+        - 8.07986
+        - 3.73542
+        - -256.99940
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1940133903
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj156
+      Rotate:
+        - 359.97740
+        - 0.47990
+        - 359.98960
+      Scale:
+        - 0.22000
+        - 0.22000
+        - 0.22000
+      Translate:
+        - 14.70040
+        - 4.91197
+        - -277.98800
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1118068435
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj157
+      Rotate:
+        - 359.62440
+        - 359.69310
+        - 359.71390
+      Scale:
+        - 0.22000
+        - 0.22000
+        - 0.22000
+      Translate:
+        - 14.98472
+        - 4.78047
+        - -277.97880
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC05
+      Hash: !ul 1545473611
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj159
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.40000
+        - 0.40000
+        - 0.40000
+      Translate:
+        - 24.53654
+        - 2.05337
+        - -197.91450
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC01
+      Hash: !ul 149144799
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj162
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.85000
+        - 0.85000
+        - 0.85000
+      Translate:
+        - -0.77023
+        - 3.10842
+        - -107.51800
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 1540669868
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj172
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.98000
+      Scale:
+        - 0.35000
+        - 0.35000
+        - 0.35000
+      Translate:
+        - 15.13269
+        - 2.51843
+        - -198.71150
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 996560595
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj173
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.94000
+      Scale:
+        - 0.18000
+        - 0.18000
+        - 0.18000
+      Translate:
+        - 3.88780
+        - 4.17023
+        - -198.50920
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 396780448
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj174
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.84000
+      Scale:
+        - 0.28000
+        - 0.28000
+        - 0.28000
+      Translate:
+        - 9.36727
+        - 2.75135
+        - -198.52290
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 24484023
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj175
+      Rotate:
+        - 0.54000
+        - 359.72000
+        - 0.00000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 2.09001
+        - 5.24967
+        - -161.11580
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 2085740694
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj176
+      Rotate:
+        - 0.54000
+        - 359.72000
+        - 0.00000
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 2.68793
+        - 5.19012
+        - -161.00120
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1976051977
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj177
+      Rotate:
+        - 0.48715
+        - 359.96530
+        - 359.73950
+      Scale:
+        - 0.55000
+        - 0.55000
+        - 0.55000
+      Translate:
+        - 7.23015
+        - 4.00498
+        - -160.99510
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC01
+      Hash: !ul 1364721523
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj184
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.76000
+      Scale:
+        - 0.65000
+        - 0.65000
+        - 0.65000
+      Translate:
+        - 28.37453
+        - 0.79786
+        - -108.00400
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 2085250512
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj186
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.74000
+      Scale:
+        - 0.22000
+        - 0.22000
+        - 0.22000
+      Translate:
+        - 8.13436
+        - 3.64900
+        - -198.50790
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC01
+      Hash: !ul 258764693
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj187
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.10000
+      Scale:
+        - 0.88000
+        - 0.88000
+        - 0.88000
+      Translate:
+        - 6.65460
+        - 1.48631
+        - -99.63805
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC01
+      Hash: !ul 1004052248
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj194
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.58000
+      Scale:
+        - 0.65000
+        - 0.65000
+        - 0.65000
+      Translate:
+        - 19.91012
+        - 1.52146
+        - -142.10490
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 1436173177
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj195
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.98000
+      Scale:
+        - 0.35000
+        - 0.35000
+        - 0.35000
+      Translate:
+        - 26.80435
+        - 2.42421
+        - -198.49170
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 2052143123
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj197
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.45000
+        - 0.45000
+        - 0.45000
+      Translate:
+        - 43.97122
+        - 4.01766
+        - -154.29240
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 380485695
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj198
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 45.07555
+        - 3.91022
+        - -154.28820
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1777520083
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj199
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.48000
+        - 0.48000
+        - 0.48000
+      Translate:
+        - 51.62086
+        - 6.25827
+        - -178.45290
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1861536289
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj200
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.48000
+        - 0.48000
+        - 0.48000
+      Translate:
+        - 51.56714
+        - 5.27893
+        - -178.45570
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 488044130
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj201
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.48000
+        - 0.48000
+        - 0.48000
+      Translate:
+        - 53.34607
+        - 5.32541
+        - -178.44720
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC01
+      Hash: !ul 1707241927
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj205
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.85000
+        - 0.85000
+        - 0.85000
+      Translate:
+        - 1.51563
+        - 2.17969
+        - -107.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 446801147
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj216
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.98000
+      Scale:
+        - 0.35000
+        - 0.35000
+        - 0.35000
+      Translate:
+        - 138.28140
+        - 2.64659
+        - -198.49850
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 1380790658
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj217
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.98000
+      Scale:
+        - 0.35000
+        - 0.35000
+        - 0.35000
+      Translate:
+        - 126.68350
+        - 2.60773
+        - -198.50700
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 2026006621
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj223
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.12000
+        - 0.12000
+        - 0.12000
+      Translate:
+        - 45.34994
+        - 4.90510
+        - -278.00050
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarGroundD
+      Hash: !ul 242774747
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj227
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.92000
+      Scale:
+        - 0.50000
+        - 0.50000
+        - 0.50000
+      Translate:
+        - 3.94464
+        - -1.23203
+        - -164.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 434739603
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj228
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 17.00000
+        - 3.00000
+        - -201.46090
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 571697681
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj229
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 14.89443
+        - 3.07117
+        - -201.45270
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 1241022098
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj230
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.50000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 17.34579
+        - 2.76690
+        - -201.46570
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 73085902
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj231
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 17.57711
+        - 2.64413
+        - -201.45800
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 1370167239
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj232
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.50000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 17.67794
+        - 2.81613
+        - -201.45390
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 1758547183
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj233
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.50000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 16.80368
+        - 2.84401
+        - -201.46330
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 1658303387
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj234
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 11.55220
+        - 3.45670
+        - -201.46850
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 1062152542
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj235
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 11.35765
+        - 3.35765
+        - -201.45100
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC03
+      Hash: !ul 911414367
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj236
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 11.70759
+        - 3.27461
+        - -201.46500
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1409781840
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj242
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.20000
+        - 0.20000
+        - 0.20000
+      Translate:
+        - 52.96660
+        - 4.46276
+        - -218.99800
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC01
+      Hash: !ul 194226750
+      Layer: DvFar2
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj248
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.85000
+        - 0.85000
+        - 0.85000
+      Translate:
+        - -8.00000
+        - 2.50000
+        - -107.50000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1305507787
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj249
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.08000
+        - 0.08000
+        - 0.08000
+      Translate:
+        - 27.50000
+        - 3.07031
+        - -279.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1670341572
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj250
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.08000
+        - 0.08000
+        - 0.08000
+      Translate:
+        - 23.50000
+        - 3.35156
+        - -279.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 199367197
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj251
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.08000
+        - 0.08000
+        - 0.08000
+      Translate:
+        - 31.21875
+        - 3.29688
+        - -269.07810
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 498500359
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj252
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.08000
+        - 0.08000
+        - 0.08000
+      Translate:
+        - 36.36719
+        - 3.16406
+        - -269.07810
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1394004311
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj253
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.08000
+        - 0.08000
+        - 0.08000
+      Translate:
+        - 33.83594
+        - 3.07031
+        - -269.07810
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1260337542
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj254
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.08000
+        - 0.08000
+        - 0.08000
+      Translate:
+        - 18.04688
+        - 3.78125
+        - -282.01560
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1345773578
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj255
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.08000
+        - 0.08000
+        - 0.08000
+      Translate:
+        - 17.50000
+        - 4.08594
+        - -282.10940
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC01
+      Hash: !ul 2041708450
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj256
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.84000
+      Scale:
+        - 0.65000
+        - 0.65000
+        - 0.65000
+      Translate:
+        - 22.80410
+        - 1.66698
+        - -108.00700
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC01
+      Hash: !ul 482874792
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj257
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.74000
+      Scale:
+        - 0.65000
+        - 0.65000
+        - 0.65000
+      Translate:
+        - 19.02192
+        - 1.76770
+        - -108.00490
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC01
+      Hash: !ul 774495404
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj258
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.72000
+      Scale:
+        - 0.65000
+        - 0.65000
+        - 0.65000
+      Translate:
+        - 13.95215
+        - 1.96558
+        - -108.00050
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1232621505
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj277
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00160
+      Scale:
+        - 0.20000
+        - 0.20000
+        - 0.20000
+      Translate:
+        - 6.57379
+        - 3.56703
+        - -219.01170
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1061352881
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj279
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 53.21540
+        - 4.69335
+        - -192.80910
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1669055140
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj280
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 53.57720
+        - 4.62810
+        - -192.83390
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 64470747
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj281
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 54.94054
+        - 4.66762
+        - -192.82440
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 140181289
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj282
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 55.53543
+        - 4.53120
+        - -192.83300
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 547192034
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj283
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 55.66609
+        - 4.59490
+        - -192.82180
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 491709621
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj284
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 52.07100
+        - 4.64815
+        - -192.84800
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 600940707
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj285
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 52.29564
+        - 4.71522
+        - -192.83590
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 2083377213
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj286
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 48.99459
+        - 4.61104
+        - -192.83070
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 924633380
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj287
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 49.24370
+        - 4.57545
+        - -192.83410
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1562245178
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj288
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 47.73499
+        - 4.48408
+        - -192.83370
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1944559508
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj289
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 57.37367
+        - 4.43476
+        - -192.81550
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1641620957
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj290
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 57.13296
+        - 4.50593
+        - -192.82730
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 819832093
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj291
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 88.48758
+        - 3.37577
+        - -193.88340
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 36914950
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj292
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.50000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 88.91890
+        - 3.38234
+        - -193.89060
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1307005919
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj293
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.50000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 92.16115
+        - 3.67022
+        - -193.87990
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1706586225
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj294
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.50000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 92.46001
+        - 3.67022
+        - -193.87670
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 949011608
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj295
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.50000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 84.67181
+        - 3.21192
+        - -193.90430
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 537112565
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj296
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 84.34247
+        - 3.13972
+        - -193.89770
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1468885397
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj297
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.50000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 86.98453
+        - 3.28819
+        - -193.89520
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1896919275
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj325
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00160
+      Scale:
+        - 0.15000
+        - 0.15000
+        - 0.15000
+      Translate:
+        - 17.74251
+        - 3.30845
+        - -219.95090
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1335524907
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj326
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.15000
+        - 0.15000
+        - 0.15000
+      Translate:
+        - 25.75393
+        - 3.30845
+        - -219.96150
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1926958122
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj327
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00160
+      Scale:
+        - 0.15000
+        - 0.15000
+        - 0.15000
+      Translate:
+        - 9.62838
+        - 3.34768
+        - -219.95300
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1319514645
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj328
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.10000
+        - 0.10000
+        - 0.10000
+      Translate:
+        - 23.11664
+        - 4.63548
+        - -256.32170
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 986010820
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj329
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.10000
+        - 0.10000
+        - 0.10000
+      Translate:
+        - 23.70873
+        - 4.69489
+        - -257.02520
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 640818835
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj330
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.15000
+        - 0.15000
+        - 0.15000
+      Translate:
+        - 24.99219
+        - 2.80469
+        - -239.03130
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 203615265
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj331
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.15000
+        - 0.15000
+        - 0.15000
+      Translate:
+        - 16.71094
+        - 2.57031
+        - -239.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1944809758
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj332
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.15000
+        - 0.15000
+        - 0.15000
+      Translate:
+        - 21.82031
+        - 2.36719
+        - -238.59380
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1670936787
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj333
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.15000
+        - 0.15000
+        - 0.15000
+      Translate:
+        - 22.00000
+        - 1.98438
+        - -238.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1432892583
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj334
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.96000
+      Scale:
+        - 0.15000
+        - 0.15000
+        - 0.15000
+      Translate:
+        - 29.75781
+        - 2.59375
+        - -238.13280
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1311803855
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj335
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.15000
+        - 0.15000
+        - 0.15000
+      Translate:
+        - 30.00000
+        - 2.14844
+        - -237.75000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1727750790
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj336
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.15000
+        - 0.15000
+        - 0.15000
+      Translate:
+        - 14.10938
+        - 2.28906
+        - -238.21090
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1183170680
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj337
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04000
+      Scale:
+        - 0.15000
+        - 0.15000
+        - 0.15000
+      Translate:
+        - 14.10938
+        - 1.85938
+        - -237.71090
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1390156051
+      Layer: DvFar3
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj338
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.04727
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 90.51758
+        - 2.53112
+        - -142.66090
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 417897576
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj339
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.88650
+      Scale:
+        - 0.20000
+        - 0.20000
+        - 0.20000
+      Translate:
+        - 64.67387
+        - 3.65003
+        - -219.01560
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 632959663
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj340
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.86000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 57.46571
+        - 2.70381
+        - -193.00200
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 1297395808
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj341
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.86000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 68.50000
+        - 2.00000
+        - -193.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 2138192970
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj342
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.86000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 53.00000
+        - 3.00000
+        - -193.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 598054000
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj343
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 59.70492
+        - 4.29462
+        - -193.00830
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1467934207
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj344
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 60.84501
+        - 4.17385
+        - -193.01000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1061259458
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj345
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 61.12762
+        - 4.18592
+        - -193.00950
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1363108622
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj346
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 61.94445
+        - 4.09662
+        - -193.00630
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 1589021605
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj347
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 64.09541
+        - 3.86715
+        - -192.99630
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC00
+      Hash: !ul 2118638743
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj348
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 65.06280
+        - 3.72826
+        - -193.00810
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 1307794457
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj349
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.86000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 62.50000
+        - 2.31250
+        - -193.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 1736339892
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj351
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.86000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 48.00000
+        - 2.50000
+        - -193.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC04
+      Hash: !ul 234816875
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj352
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 359.86000
+      Scale:
+        - 0.30000
+        - 0.30000
+        - 0.30000
+      Translate:
+        - 46.50000
+        - 3.00000
+        - -193.00000
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaA
+      Hash: !ul 1293730599
+      Layer: DvFar5
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj353
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 0.20000
+        - 0.20000
+        - 0.20000
+      Translate:
+        - 74.44038
+        - 3.06777
+        - -219.00180
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC07
+      Hash: !ul 441990519
+      Layer: DvFar7
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj354
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 0.00000
+        - -1.50000
+        - -242.36720
+    - AreaHash: !u 2992145499
+      Gyaml: DVHajimariSougenFarJimenHanaC08
+      Hash: !ul 239017051
+      Layer: DvFar8
+      Name: Course001_Main[Design].muunt/obj2;DVHajimariSougenKinokoASet.muunt/obj0;DVHajimariSougenBSet.muunt/obj355
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 0.00000
+        - -1.50000
+        - -277.68750
+    - AreaHash: !u 2992145499
+      Dynamic: {EffectKeyName: DVButterflyStaffRoll}
+      Gyaml: CallEffectTag
+      Hash: !ul 2065597608
+      Layer: PlayArea2
+      Name: Course001_Main[Deco].muunt/obj24
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 0.50000
+        - 7.00000
+        - -2.00000
+  BgUnits:
+    - ModelType: !l 0
+      SkinDivision: !l 0
+      Walls:
+        - ExternalRail:
+            IsClosed: true
+            Points:
+              - Translate:
+                  - -1.00000
+                  - -5.00000
+                  - 2.00000
+              - Translate:
+                  - -1.00000
+                  - 1.00000
+                  - 2.00000
+              - Translate:
+                  - 48.00000
+                  - 1.00000
+                  - 2.00000
+              - Translate:
+                  - 61.00000
+                  - 1.00000
+                  - 2.00000
+              - Translate:
+                  - 61.00000
+                  - -5.00000
+                  - 2.00000
+        - ExternalRail:
+            IsClosed: true
+            Points:
+              - Translate:
+                  - 63.00000
+                  - -5.00000
+                  - 2.00000
+              - Translate:
+                  - 63.00000
+                  - 1.00000
+                  - 2.00000
+              - Translate:
+                  - 220.00000
+                  - 1.00000
+                  - 2.00000
+              - Translate:
+                  - 220.00000
+                  - -5.00000
+                  - 2.00000
+        - ExternalRail:
+            IsClosed: true
+            Points:
+              - Translate:
+                  - 223.00000
+                  - -5.00000
+                  - 2.00000
+              - Translate:
+                  - 223.00000
+                  - 1.00000
+                  - 2.00000
+              - Translate:
+                  - 289.00000
+                  - 1.00000
+                  - 2.00000
+              - Translate:
+                  - 289.00000
+                  - -5.00000
+                  - 2.00000
+  Links:
+    - {Dst: !ul 14583255045390669027, Name: Reference, Src: !ul 13092817996462068995}
+    - {Dst: !ul 10101701342416998777, Name: Reference, Src: !ul 14583255045390669027}
+    - {Dst: !ul 13048263359803875770, Name: Delete, Src: !ul 14583255045390669027}
+    - {Dst: !ul 2283509288538257040, Name: Reference, Src: !ul 14583255045390669027}
+    - {Dst: !ul 17737672837873232699, Name: Reference, Src: !ul 14583255045390669027}
+    - {Dst: !ul 10101701342416998777, Name: Reference, Src: !ul 17737672837873232699}
+    - {Dst: !ul 13092817996462068995, Name: Reference, Src: !ul 17737672837873232699}
+  RootAreaHash: !u 2992145499
+  StageParam: Work/Stage/StageParam/Course001_Main.game__stage__StageParam.gyml
