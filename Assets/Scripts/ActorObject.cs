@@ -7,8 +7,21 @@ public class ActorObject : MonoBehaviour
 {
     public Course.Actor actor;
     public TMPro.TextMeshPro text;
+    public SpriteRenderer spriteRenderer;
 
-    void Update()
+    public void ConfigureSprite()
+    {
+        if (spriteRenderer == null) spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        Sprite sprite = Resources.Load<Sprite>(actor.Gyaml);
+        if (sprite != null)
+        {
+            spriteRenderer.sprite = sprite;
+            spriteRenderer.transform.localScale = new Vector3(1.15f, 1.15f, 1.15f);
+            text.gameObject.SetActive(false);
+        }
+    }
+
+    public void ConfigureName()
     {
         if (gameObject.name != actor.Gyaml) gameObject.name = actor.Gyaml;
     }
@@ -21,6 +34,9 @@ public class ActorObject : MonoBehaviour
         transform.position = actor.Translate;
         transform.localScale = actor.Scale;
         transform.rotation = Quaternion.Euler(actor.Rotate);
+
+        ConfigureSprite();
+        ConfigureName();
     }
 
     public Course.Actor ConvertBack()

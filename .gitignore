@@ -76,3 +76,4 @@ crashlytics-build.properties
 /[Aa]ssets/MarioLevels/*.yaml.meta
 /[Aa]ssets/MarioLevels/ExportFromGame/*.yaml
 /[Aa]ssets/MarioLevels/ExportFromGame/*.yaml.meta
+/[Aa]ssets/Resources/*
