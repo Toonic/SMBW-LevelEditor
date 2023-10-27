@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 986525277198492272}
   - component: {fileID: -2547349008732031715}
   m_Layer: 0
-  m_Name: CloseShapePrefab
+  m_Name: GroundAsset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
