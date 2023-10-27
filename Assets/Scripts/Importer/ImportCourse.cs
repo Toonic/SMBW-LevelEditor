@@ -22,6 +22,7 @@ public class ImportCourse : MonoBehaviour
     [HorizontalLine]
     [InfoBox("Drop your .yaml inside of ImportLevelAsset below, and press the buttons to start creating.")]
     public TextAsset importLevelAsset;
+    public string ExportLevelName = "MyLevel1";
     private List<ActorObject> actorObjects = new List<ActorObject>();
     private List<SpriteShapeController> spriteShapeControllers = new List<SpriteShapeController>();
 
@@ -86,8 +87,8 @@ public class ImportCourse : MonoBehaviour
 
 
 
-        StreamWriter writer = new StreamWriter(Application.dataPath + "/Exports/" + newLevelAsset.name + ".yaml", false);
-        Debug.Log("Saving to: " + Application.dataPath + "/Exports/" + newLevelAsset.name + ".yaml");
+        StreamWriter writer = new StreamWriter(Application.dataPath + "/Exports/" + ExportLevelName + ".yaml", false);
+        Debug.Log("Saving to: " + Application.dataPath + "/Exports/" + ExportLevelName + ".yaml");
         writer.Write(course.ToYaml());
         writer.Flush();
         writer.Close();

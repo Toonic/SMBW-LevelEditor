@@ -28,7 +28,7 @@ public class ActorObject : MonoBehaviour
         actor.Translate = transform.position;
         actor.Scale = transform.localScale;
         actor.Rotate = transform.localRotation.eulerAngles;
-        if (actor.InLinks == null)
+        if (actor.InLinks == null || actor.InLinks == "")
             actor.Hash = "!ul " + Random.Range(0, 2147483646);
         return actor;
     }
