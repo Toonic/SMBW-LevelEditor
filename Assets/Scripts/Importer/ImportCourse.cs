@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.U2D;
 
+[ExecuteInEditMode]
 public class ImportCourse : MonoBehaviour
 {
-    public TextAsset textAsset;
+    [InfoBox("These are the base assets, please ignore.", EInfoBoxType.Warning)]
+    public TextAsset newLevelAsset;
     public GameObject actorPrefab;
     public GameObject actorsParent;
     public SpriteShapeController spriteShapeController;
@@ -16,28 +19,32 @@ public class ImportCourse : MonoBehaviour
     string line;
 
     public Course course;
-
+    [HorizontalLine]
+    [InfoBox("Drop your .yaml inside of ImportLevelAsset below, and press the buttons to start creating.")]
+    public TextAsset importLevelAsset;
     private List<ActorObject> actorObjects = new List<ActorObject>();
     private List<SpriteShapeController> spriteShapeControllers = new List<SpriteShapeController>();
 
-    // Start is called before the first frame update
-    void Start()
+    [Button]
+    public void NewLevel()
     {
-        ImportIt();
+        ClearLevel();
+        ImportLevel(newLevelAsset);
         SpawnActors();
         SpawnSpriteShapeControllers();
-        // ExportIt();
     }
 
-    void Update()
+    [Button]
+    public void ImportLevel()
     {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            ExportIt();
-        }
+        ClearLevel();
+        ImportLevel(importLevelAsset);
+        SpawnActors();
+        SpawnSpriteShapeControllers();
     }
 
-    public void ExportIt()
+    [Button]
+    public void ExportLevel()
     {
         List<ActorObject> findObjects = FindObjectsOfType<ActorObject>().ToList();
         foreach (var item in findObjects)
@@ -79,13 +86,45 @@ public class ImportCourse : MonoBehaviour
 
 
 
-        StreamWriter writer = new StreamWriter(Application.dataPath + "/Exports/" + textAsset.name + ".yaml", false);
-        Debug.Log("Saving to: " + Application.dataPath + "/Exports/" + textAsset.name + ".yaml");
+        StreamWriter writer = new StreamWriter(Application.dataPath + "/Exports/" + newLevelAsset.name + ".yaml", false);
+        Debug.Log("Saving to: " + Application.dataPath + "/Exports/" + newLevelAsset.name + ".yaml");
         writer.Write(course.ToYaml());
         writer.Flush();
         writer.Close();
         writer.Dispose();
         Debug.Log("Done saving");
+    }
+
+    [Button]
+    public void ClearLevel()
+    {
+        var children = new GameObject[actorsParent.transform.childCount];
+
+        int i = 0;
+        foreach (Transform child in actorsParent.transform)
+        {
+            children[i] = child.gameObject;
+            i++;
+        }
+        // Destroy the collected child objects
+        foreach (var child in children)
+        {
+            DestroyImmediate(child);
+        }
+
+        children = new GameObject[levelParent.transform.childCount];
+
+        i = 0;
+        foreach (Transform child in levelParent.transform)
+        {
+            children[i] = child.gameObject;
+            i++;
+        }
+        // Destroy the collected child objects
+        foreach (var child in children)
+        {
+            DestroyImmediate(child);
+        }
     }
 
     public void SpawnSpriteShapeControllers()
@@ -122,9 +161,9 @@ public class ImportCourse : MonoBehaviour
         }
     }
 
-    public void ImportIt()
+    public void ImportLevel(TextAsset targetTextAsset)
     {
-        stringReader = new StringReader(textAsset.text);
+        stringReader = new StringReader(targetTextAsset.text);
         line = stringReader.ReadLine();
 
         course = new Course();

@@ -2,10 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[ExecuteInEditMode]
 public class ActorObject : MonoBehaviour
 {
     public Course.Actor actor;
     public TMPro.TextMeshPro text;
+
+    void Update()
+    {
+        if (gameObject.name != actor.Gyaml) gameObject.name = actor.Gyaml;
+    }
 
     public void InitActor(Course.Actor inActor)
     {

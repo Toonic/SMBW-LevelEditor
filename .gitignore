@@ -70,3 +70,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+/[Aa]ssets/Exports/*.yaml
+/[Aa]ssets/Exports/*.yaml.meta
+/[Aa]ssets/MarioLevels/*.yaml
+/[Aa]ssets/MarioLevels/*.yaml.meta
+/[Aa]ssets/MarioLevels/ExportFromGame/*.yaml
+/[Aa]ssets/MarioLevels/ExportFromGame/*.yaml.meta
