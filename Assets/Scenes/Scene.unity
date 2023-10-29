@@ -359,4 +359,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteShape: {fileID: 986525277198492273, guid: ff23a8bed7001574f872b7b658672669, type: 3}
-  Path: D:\\LocationOfRomFSHere
+  ImportPath: D:\SMWEditor-Test-Deleteme
+  ExportPath: C:\Users\Jordan\AppData\Roaming\Ryujinx\mods\contents\010015100B514000\romfs

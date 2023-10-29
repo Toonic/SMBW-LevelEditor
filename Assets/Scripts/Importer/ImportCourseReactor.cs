@@ -10,13 +10,16 @@ using UnityEngine.U2D;
 public class ImportCourseReactor : MonoBehaviour
 {
     public GameObject spriteShape;
-    public string Path;
+    [InfoBox("The location of a exported RomFS files for Wonder.")]
+    public string ImportPath;
+    [InfoBox("The location of your mod folder/where you wish for it to be exported.")]
+    public string ExportPath;
     Course currentCourse = null;
 
     [Button]
-    public void Test()
+    public void ImportLevel()
     {
-        RomFS.SetRoot(Path);
+        RomFS.SetRoot(ImportPath);
         currentCourse = new Course("Course001_Course");
         CourseArea area = currentCourse.GetArea("Course001_Main");
         var root = area.GetRootNode();
@@ -42,6 +45,13 @@ public class ImportCourseReactor : MonoBehaviour
                 SpawnSpriteShapeControllers(pointList);
             }
         }
+    }
+
+    [Button]
+    public void ExportLevel()
+    {
+        //@TODO: Export the level back out.
+        // RomFS.SetRoot(ImportPath);
     }
 
     public void SpawnSpriteShapeControllers(List<UnityEngine.Vector3> points)
