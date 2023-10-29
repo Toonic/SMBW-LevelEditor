@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Fushigi.Byml
 {
+    [System.Serializable]
     public enum BymlNodeId : byte
     {
         String = 0xA0,
@@ -28,6 +29,7 @@ namespace Fushigi.Byml
     };
 
     [StructLayout(LayoutKind.Sequential, Size = 0x10)]
+    [System.Serializable]
     public struct BymlHeader
     {
         public ushort Magic;
@@ -38,13 +40,14 @@ namespace Fushigi.Byml
     }
 
     [StructLayout(LayoutKind.Sequential, Size = 0xC)]
+    [System.Serializable]
     public struct Vector3
     {
         public float X, Y, Z;
     }
 
     [StructLayout(LayoutKind.Sequential, Size = 0x1C)]
-
+    [System.Serializable]
     public struct BymlPathPoint
     {
         public Vector3 Position;
@@ -52,6 +55,7 @@ namespace Fushigi.Byml
         public uint Unk;
     }
 
+    [System.Serializable]
     public struct BymlHashPair : IComparable<string>, IComparable<BymlHashPair>
     {
         public string Name;
@@ -74,7 +78,7 @@ namespace Fushigi.Byml
     {
         public BymlNodeId Id { get; }
     }
-
+    [System.Serializable]
     public class BymlNode<T> : IBymlNode
     {
         public BymlNodeId Id { get; }

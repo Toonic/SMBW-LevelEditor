@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Fushigi.Byml
 {
+    [System.Serializable]
     public class BymlArrayNode : IBymlNode
     {
         public BymlNodeId Id => BymlNodeId.Array;

@@ -73,13 +73,6 @@ public class CourseArea
             return (BymlHashTable)mByml.Root;
         }
 
-        /*
-        public bool ContainsSkinParam(string param)
-        {
-            return ((BymlHashTable)((BymlHashTable)mByml.Root)["SkinParam"]).ContainsKey(param);
-        }
-        */
-
         public class SkinParam
         {
             public bool mDisableBgUnitDecoA;

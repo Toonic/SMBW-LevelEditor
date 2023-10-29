@@ -15,16 +15,18 @@ public class ImportCourseReactor : MonoBehaviour
     [InfoBox("The location of your mod folder/where you wish for it to be exported.")]
     public string ExportPath;
     Course currentCourse = null;
+    CourseArea area = null;
+    BymlHashTable root = null;
 
     [Button]
     public void ImportLevel()
     {
         RomFS.SetRoot(ImportPath);
         currentCourse = new Course("Course001_Course");
-        CourseArea area = currentCourse.GetArea("Course001_Main");
-        var root = area.GetRootNode();
+        area = currentCourse.GetArea("Course001_Main");
+        root = (BymlHashTable)area.GetRootNode();
 
-        BymlArrayNode bgUnitsArray = (BymlArrayNode)((BymlHashTable)root)["BgUnits"];
+        BymlArrayNode bgUnitsArray = (BymlArrayNode)(root)["BgUnits"];
         foreach (BymlHashTable bgUnit in bgUnitsArray.Array)
         {
             BymlArrayNode wallsArray = (BymlArrayNode)((BymlHashTable)bgUnit)["Walls"];
@@ -45,13 +47,15 @@ public class ImportCourseReactor : MonoBehaviour
                 SpawnSpriteShapeControllers(pointList);
             }
         }
+
+
     }
 
     [Button]
     public void ExportLevel()
     {
-        //@TODO: Export the level back out.
-        // RomFS.SetRoot(ImportPath);
+        currentCourse.SaveToRomFS(root, ExportPath, area.GetName());
+        Debug.Log("Saved");
     }
 
     public void SpawnSpriteShapeControllers(List<UnityEngine.Vector3> points)

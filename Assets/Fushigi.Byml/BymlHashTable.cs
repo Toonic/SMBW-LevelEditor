@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Fushigi.Byml
 {
+    [System.Serializable]
     public class BymlHashTable : IBymlNode
     {
         public BymlNodeId Id => BymlNodeId.Hash;

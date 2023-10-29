@@ -8,6 +8,7 @@ using System.IO;
 using System.Net.Http;
 using System.Threading;
 using System.Runtime.InteropServices;
+using ZstdNet;
 
 namespace Fushigi.util
 {
@@ -41,6 +42,18 @@ namespace Fushigi.util
             }
 
             return decompressedData;
+        }
+
+        public static byte[] CompressData(byte[] data)
+        {
+            byte[] compressedData;
+
+            using (var compressor = new ZstdNet.Compressor(new ZstdNet.CompressionOptions(19)))
+            {
+                compressedData = compressor.Wrap(data);
+            }
+
+            return compressedData;
         }
 
         public static bool TryGetFileInfo(string filename, out FileInfo fileInfo)

@@ -14,6 +14,16 @@ namespace Fushigi.Byml
         private const BymlNodeId StringTableId = BymlNodeId.StringTable;
         public static bool IsValidBymlNodeId(byte id) => Enum.IsDefined(typeof(BymlNodeId), id);
 
+        public Byml(IBymlNode root)
+        {
+            Root = root;
+            Header = new BymlHeader()
+            {
+                Magic = 0x4259,
+                Version = 7,
+            };
+        }
+
         /* Value nodes only store their data adjacent to the node. */
         public static bool IsValueBymlNode(BymlNodeId id)
         {
@@ -233,6 +243,13 @@ namespace Fushigi.Byml
             NodeCache[pos] = new CachedNode(node, length);
 
             return node;
+        }
+
+        public void Save(Stream stream)
+        {
+            BymlWriter writer = new BymlWriter();
+            writer.PushIter(this.Root);
+            writer.Write(stream);
         }
     }
 }

@@ -12,11 +12,17 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Diagnostics;
 
 namespace Fushigi.course
 {
     public class Course
     {
+
+        public Byml.Byml courseInfo;
+
         public Course(string courseName)
         {
             mCourseName = courseName;
@@ -33,7 +39,7 @@ namespace Fushigi.course
         {
             byte[] courseBytes = RomFS.GetFileBytes($"BancMapUnit/{mCourseName}.bcett.byml.zs");
             /* grab our course information file */
-            Byml.Byml courseInfo = new Byml.Byml(new MemoryStream(FileUtil.DecompressData(courseBytes)));
+            courseInfo = new Byml.Byml(new MemoryStream(FileUtil.DecompressData(courseBytes)));
 
             var root = (BymlHashTable)courseInfo.Root;
             var stageList = (BymlArrayNode)root["RefStages"];
@@ -43,6 +49,24 @@ namespace Fushigi.course
                 string stageParamPath = ((BymlNode<string>)stageList[i]).Data.Replace("Work/", "").Replace(".gyml", ".bgyml");
                 string stageName = Path.GetFileName(stageParamPath).Split(".game")[0];
                 mAreas.Add(new CourseArea(stageName));
+            }
+        }
+
+        public void SaveToRomFS(BymlHashTable root, string exportPath, string currentArea)
+        {
+            var mem = new MemoryStream();
+            new Byml.Byml(root).Save(mem);
+            var compRessedData = FileUtil.CompressData(mem.ToArray());
+            File.WriteAllBytes(exportPath + $"/BancMapUnit/{currentArea}.bcett.byml.zs", compRessedData);
+        }
+
+        private byte[] ConvertToByteArray(BymlHashTable root)
+        {
+            using (MemoryStream memoryStream = new MemoryStream())
+            {
+                IFormatter formatter = new BinaryFormatter();
+                formatter.Serialize(memoryStream, root);
+                return memoryStream.ToArray();
             }
         }
 
